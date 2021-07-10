@@ -3,7 +3,7 @@
 
 
 ## :raised_hands:  프로젝트 소개
-'제 2 벤처붐' 이 불어온 국내 스타트업 생태계의 성장 가능성에 대한 다각적 인사이트를 도출합니다. 관련 영향 요인들을 분석하고 머신러닝 기반의 스타트업 성공 확률 예측 모델을 개발합니다.
+'제 2 벤처붐' 이 불어온 국내 스타트업 생태계의 성장 가능성에 대한 다각적 인사이트를 도출합니다. 이를 위해 관련 영향 요인들을 분석하고 머신러닝 기반의 스타트업 성공 확률 예측 모델을 개발합니다.
 
 ## :memo:  분석 계획
 
@@ -24,12 +24,16 @@
 1. [신설법인데이터](https://www.findatamall.or.kr/fsec/dataProd/generalDataProdDetail.do?cmnx=44&goods_id=fdbd89e3-b13a-11eb-9f58-f220ef21bb88)
 
 2021 금융데이터경진대회 참가자에게 제공되는 신설법인데이터를 활용합니다. 
-한국기업데이터가 제공을, 금융데이터거래소가 유통을 주관합니다.
 
-2. [Korea Ratings](http://www.rating.co.kr/)
+
+2. [KOSIS(국가통계포털)](https://kosis.kr/index/index.do)
+
+KOSIS에서 제공하는 기업생멸행정통계 데이터를 활용합니다.
+
+3. [Korea Ratings](http://www.rating.co.kr/)
 
 Korea Ratings에서 제공하는 기업 재무제표 데이터를 활용합니다. 
-본 데이터를 활용하기에 앞서 Korea Ratings 측에 허가를 받았음을 알립니다.
+
 
 ### - 분석 툴(R,python) 및 분석기법
 Python의 라이브러리 pandas, numpy를 이용해 데이터를 전처리, 업종 분포를 한 눈에 보기 위해 시각화를 해주는 matplotlib, seaborn, 기업의 성장에 기여하는 각 요인들의 중요도를 학습할 모델 Scikit-Learn등이 있다.
