@@ -15,6 +15,16 @@
 ### - 분석 데이터
 신설법인 데이터와 첫 벤처 붐에 신설된 법인들의 설립 초기 데이터외 관련 데이터들
 
+1. [신설법인데이터](https://www.findatamall.or.kr/fsec/dataProd/generalDataProdDetail.do?cmnx=44&goods_id=fdbd89e3-b13a-11eb-9f58-f220ef21bb88)
+
+2021 금융데이터경진대회 참가자에게 제공되는 신설법인데이터를 활용합니다. 
+한국기업데이터가 제공을, 금융데이터거래소가 유통을 주관합니다.
+
+2. [Korea Ratings](http://www.rating.co.kr/)
+
+Korea Ratings에서 제공하는 기업 재무제표 데이터를 활용합니다. 
+본 데이터를 활용하기에 앞서 Korea Ratings 측에 허가를 받았음을 알립니다.
+
 ### - 분석 툴(R,python) 및 분석기법
 Python의 라이브러리 pandas, numpy를 이용해 데이터를 전처리, 업종 분포를 한 눈에 보기 위해 시각화를 해주는 matplotlib, seaborn, 기업의 성장에 기여하는 각 요인들의 중요도를 학습할 모델 Scikit-Learn등이 있다.
 
